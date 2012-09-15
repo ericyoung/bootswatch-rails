@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, body, legend, label {
 
 .navbar .navbar-inner,
 div.subnav {
-	@include gradient-vertical-three-colors($gray, $grayDark, 70%, $grayDark);
+	@include gradient-vertical-three-colors($gray, $grayDark, .7, $grayDark);
 }
 
 .navbar .divider-vertical {
